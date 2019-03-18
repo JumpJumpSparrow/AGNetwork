@@ -4,10 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GrapesNetWork.xcscheme_^#shared#^_</key>
+		<key>GrapesNetWork.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>369D68C3223B96B1007F3B2B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>369D68DB223B96B2007F3B2B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>369D68E6223B96B2007F3B2B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

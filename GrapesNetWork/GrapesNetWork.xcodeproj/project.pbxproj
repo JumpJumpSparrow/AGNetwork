@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		363864AE223F3716002F9B67 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 363864AD223F3716002F9B67 /* README.md */; };
 		369D68C9223B96B1007F3B2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 369D68C8223B96B1007F3B2B /* AppDelegate.m */; };
 		369D68CC223B96B1007F3B2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369D68CB223B96B1007F3B2B /* ViewController.m */; };
-		369D68CF223B96B1007F3B2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369D68CD223B96B1007F3B2B /* Main.storyboard */; };
 		369D68D1223B96B2007F3B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 369D68D0223B96B2007F3B2B /* Assets.xcassets */; };
 		369D68D4223B96B2007F3B2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369D68D2223B96B2007F3B2B /* LaunchScreen.storyboard */; };
 		369D68D7223B96B2007F3B2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 369D68D6223B96B2007F3B2B /* main.m */; };
@@ -35,12 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		363864AD223F3716002F9B67 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		369D68C4223B96B1007F3B2B /* GrapesNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrapesNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		369D68C7223B96B1007F3B2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		369D68C8223B96B1007F3B2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		369D68CA223B96B1007F3B2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		369D68CB223B96B1007F3B2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		369D68CE223B96B1007F3B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		369D68D0223B96B2007F3B2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		369D68D3223B96B2007F3B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		369D68D5223B96B2007F3B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,10 +105,10 @@
 				369D68C8223B96B1007F3B2B /* AppDelegate.m */,
 				369D68CA223B96B1007F3B2B /* ViewController.h */,
 				369D68CB223B96B1007F3B2B /* ViewController.m */,
-				369D68CD223B96B1007F3B2B /* Main.storyboard */,
 				369D68D0223B96B2007F3B2B /* Assets.xcassets */,
 				369D68D2223B96B2007F3B2B /* LaunchScreen.storyboard */,
 				369D68D5223B96B2007F3B2B /* Info.plist */,
+				363864AD223F3716002F9B67 /* README.md */,
 				369D68D6223B96B2007F3B2B /* main.m */,
 			);
 			path = GrapesNetWork;
@@ -235,9 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				363864AE223F3716002F9B67 /* README.md in Resources */,
 				369D68D4223B96B2007F3B2B /* LaunchScreen.storyboard in Resources */,
 				369D68D1223B96B2007F3B2B /* Assets.xcassets in Resources */,
-				369D68CF223B96B1007F3B2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +300,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		369D68CD223B96B1007F3B2B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				369D68CE223B96B1007F3B2B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		369D68D2223B96B2007F3B2B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,15 +427,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B82Z6RQ4T3;
 				INFOPLIST_FILE = GrapesNetWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
 				PRODUCT_BUNDLE_IDENTIFIER = com.suning.GrapesNetWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,15 +448,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B82Z6RQ4T3;
 				INFOPLIST_FILE = GrapesNetWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
 				PRODUCT_BUNDLE_IDENTIFIER = com.suning.GrapesNetWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
