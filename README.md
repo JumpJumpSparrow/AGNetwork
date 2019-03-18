@@ -1,7 +1,8 @@
 
-** About GrapesNetWork **
+# **About GrapesNetWork**
 
-![](/GrapesNetwork.png)
+![](/GrapesNetwork.png)  
+<img width="250" height="300"  src="/GrapesNetwork.png">
 
 ### 需求解析  
 
