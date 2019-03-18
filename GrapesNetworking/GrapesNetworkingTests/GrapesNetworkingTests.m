@@ -1,18 +1,18 @@
 //
-//  GrapesNetWorkTests.m
-//  GrapesNetWorkTests
+//  GrapesNetworkingTests.m
+//  GrapesNetworkingTests
 //
-//  Created by mcf on 2019/3/15.
+//  Created by mcf on 2019/3/18.
 //  Copyright © 2019 mcf. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface GrapesNetWorkTests : XCTestCase
+@interface GrapesNetworkingTests : XCTestCase
 
 @end
 
-@implementation GrapesNetWorkTests
+@implementation GrapesNetworkingTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

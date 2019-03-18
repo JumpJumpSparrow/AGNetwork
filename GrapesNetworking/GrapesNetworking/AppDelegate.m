@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  GrapesNetWork
+//  GrapesNetworking
 //
-//  Created by mcf on 2019/3/15.
+//  Created by mcf on 2019/3/18.
 //  Copyright © 2019 mcf. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,13 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    
-    ViewController *rootVC = [[ViewController alloc] init];
-    [self.window setRootViewController:rootVC];
-    [self.window makeKeyAndVisible];
-    
+    // Override point for customization after application launch.
     return YES;
 }
 
