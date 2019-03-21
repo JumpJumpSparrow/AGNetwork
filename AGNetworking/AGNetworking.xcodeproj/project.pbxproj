@@ -15,6 +15,7 @@
 		7C6C2D652243A12A0036D171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C2D642243A12A0036D171 /* main.m */; };
 		7C6C2D6F2243A12A0036D171 /* AGNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C2D6E2243A12A0036D171 /* AGNetworkingTests.m */; };
 		7C6C2D7A2243A12A0036D171 /* AGNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C2D792243A12A0036D171 /* AGNetworkingUITests.m */; };
+		7C6C2D882243A3B20036D171 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C2D872243A3B20036D171 /* README.md */; };
 		CD8A1E5D612024E5B06F2AAE /* libPods-AGNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C9F5E91D31FECF5F3D8407 /* libPods-AGNetworking.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		7C6C2D752243A12A0036D171 /* AGNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C6C2D792243A12A0036D171 /* AGNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGNetworkingUITests.m; sourceTree = "<group>"; };
 		7C6C2D7B2243A12A0036D171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C6C2D872243A3B20036D171 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		F0C9F5E91D31FECF5F3D8407 /* libPods-AGNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC1AA0E695287329E71FA61 /* Pods-AGNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGNetworking/Pods-AGNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +134,7 @@
 				7C6C2D5B2243A1290036D171 /* Main.storyboard */,
 				7C6C2D5E2243A12A0036D171 /* Assets.xcassets */,
 				7C6C2D602243A12A0036D171 /* LaunchScreen.storyboard */,
+				7C6C2D872243A3B20036D171 /* README.md */,
 				7C6C2D632243A12A0036D171 /* Info.plist */,
 				7C6C2D642243A12A0036D171 /* main.m */,
 			);
@@ -262,6 +265,7 @@
 			files = (
 				7C6C2D622243A12A0036D171 /* LaunchScreen.storyboard in Resources */,
 				7C6C2D5F2243A12A0036D171 /* Assets.xcassets in Resources */,
+				7C6C2D882243A3B20036D171 /* README.md in Resources */,
 				7C6C2D5D2243A1290036D171 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

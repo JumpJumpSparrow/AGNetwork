@@ -1,7 +1,7 @@
 
 # **About GrapesNetWork**
 
-<img width="250" height="300"  src="/GrapesNetwork.png">
+<img width="1180" height="330" div align=center  src="/GrapesNetwork.png">
 
 ### 需求解析  
 
