@@ -1,17 +1,18 @@
-
-# **About GrapesNetWork**
-
 <p align="center" >
 <img width="592" height="165"  src="/GrapesNetwork.png">
-<p>
-### 需求解析  
+<p>  
+
+# **About AquaGrapesNetWork**  
+
+### 需求分析  
 
 1.  request -> 充分定制网络请求，包括：  
-  * 请求头
+  * 请求头字段自定义添加
   * URL 定制灵活 
-  *  参数传递 方便
+  * 参数传递 方便
   * 请求格式兼容 json 和 xm
   * 方便发起网络请求
+  * 方便扩展和定制
 
 2. response    
 * 解析格式兼容 json 和 xml   
