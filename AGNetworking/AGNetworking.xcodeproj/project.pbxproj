@@ -55,6 +55,7 @@
 		7C6C2D792243A12A0036D171 /* AGNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGNetworkingUITests.m; sourceTree = "<group>"; };
 		7C6C2D7B2243A12A0036D171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C6C2D872243A3B20036D171 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		7C6C2D8A2243B5EA0036D171 /* AGNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGNetworking.h; sourceTree = "<group>"; };
 		F0C9F5E91D31FECF5F3D8407 /* libPods-AGNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC1AA0E695287329E71FA61 /* Pods-AGNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGNetworking/Pods-AGNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +128,7 @@
 		7C6C2D542243A1280036D171 /* AGNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				7C6C2D892243B5BF0036D171 /* AGNetworking */,
 				7C6C2D552243A1280036D171 /* AppDelegate.h */,
 				7C6C2D562243A1280036D171 /* AppDelegate.m */,
 				7C6C2D582243A1280036D171 /* ViewController.h */,
@@ -157,6 +159,14 @@
 				7C6C2D7B2243A12A0036D171 /* Info.plist */,
 			);
 			path = AGNetworkingUITests;
+			sourceTree = "<group>";
+		};
+		7C6C2D892243B5BF0036D171 /* AGNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7C6C2D8A2243B5EA0036D171 /* AGNetworking.h */,
+			);
+			path = AGNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
