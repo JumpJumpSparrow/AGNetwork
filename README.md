@@ -1,5 +1,5 @@
 <p align="center" >
-<img width="592" height="165"  src="/GrapesNetwork.png">
+<img width="592" height="165"  src="https://raw.github.com/JumpJumpSparrow/AGNetworking/master/GrapesNetwork.png">
 <p>  
 
 # **About AquaGrapesNetWork**  
