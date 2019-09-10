@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C05BA5B23279C84005CCAFE /* AGHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C05BA5A23279C84005CCAFE /* AGHttpRequest.m */; };
 		7C6C2D572243A1280036D171 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C2D562243A1280036D171 /* AppDelegate.m */; };
 		7C6C2D5A2243A1290036D171 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C2D592243A1290036D171 /* ViewController.m */; };
 		7C6C2D5D2243A1290036D171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C2D5B2243A1290036D171 /* Main.storyboard */; };
@@ -42,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		4F4AF5EBB27418AA9489EE3C /* Pods-AGNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGNetworking/Pods-AGNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		7C05BA5923279C84005CCAFE /* AGHttpRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGHttpRequest.h; sourceTree = "<group>"; };
+		7C05BA5A23279C84005CCAFE /* AGHttpRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGHttpRequest.m; sourceTree = "<group>"; };
 		7C6C2D522243A1280036D171 /* AGNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C6C2D552243A1280036D171 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7C6C2D562243A1280036D171 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -185,6 +188,8 @@
 				7CE6755D2248BED600BC53A0 /* AGURLSessionManager.m */,
 				7CE6755F2248BF1400BC53A0 /* AGHTTPSessionManager.h */,
 				7CE675602248BF1400BC53A0 /* AGHTTPSessionManager.m */,
+				7C05BA5923279C84005CCAFE /* AGHttpRequest.h */,
+				7C05BA5A23279C84005CCAFE /* AGHttpRequest.m */,
 			);
 			path = AGNetworking;
 			sourceTree = "<group>";
@@ -345,6 +350,7 @@
 				7C6C2D5A2243A1290036D171 /* ViewController.m in Sources */,
 				7CE675612248BF1400BC53A0 /* AGHTTPSessionManager.m in Sources */,
 				7CE6755B2248ACDB00BC53A0 /* AGHTTPTask.m in Sources */,
+				7C05BA5B23279C84005CCAFE /* AGHttpRequest.m in Sources */,
 				7C6C2DCB22486F8B0036D171 /* AGURLRequest.m in Sources */,
 				7C6C2D652243A12A0036D171 /* main.m in Sources */,
 				7CE6755E2248BED600BC53A0 /* AGURLSessionManager.m in Sources */,
